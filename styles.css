@@ -6,7 +6,7 @@ body{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(/assets/parallaxtop.png), url(assets/parallaxmid.png);
+    background-image: url(/assets/parallaxtop.png), url(assets/parallaxmid.png), url(assets/parallaxbottom.png);
     background-repeat: no-repeat;
     background-position: center;
     background-position: 50% 50%;
