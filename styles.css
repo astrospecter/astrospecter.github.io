@@ -11,6 +11,7 @@ body{
     background-position: center;
     background-position: 50% 50%;
     background-size: 80% 80%;
+    overflow: wrap;
 }
 h1 {
     position: absolute;
