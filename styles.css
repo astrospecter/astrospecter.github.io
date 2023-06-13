@@ -19,9 +19,14 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #fff;
-    font-family: "Arial";
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     opacity: .2;
     font-size: 70px;
+}
+
+p {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
 }
   
