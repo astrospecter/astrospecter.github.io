@@ -29,4 +29,21 @@ p {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
 }
-  
+
+.navbar {
+    display: flex;
+    font-size: 2rem;
+    height: 2.5rem;
+}
+
+.menu {
+    margin: 0 3rem;
+    justify-content: space-around;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0 4rem;
+}
