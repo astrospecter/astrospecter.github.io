@@ -16,3 +16,19 @@
     }
     
 })();
+
+window.onscroll = function() {stickyBar()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop
+
+function stickyBar() {
+    if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+        navbar.classList.remove("unsticky");
+    }
+    else {
+        navbar.classList.remove("sticky");
+        navbar.classList.add("unsticky");
+    }
+}
