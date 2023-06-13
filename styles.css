@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #000000;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .content {
@@ -18,53 +19,35 @@ body {
     background-size: 90% 80%;
     overflow: wrap;
 }
-h1 {
-    position: absolute;
-    top: 47%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #fff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    opacity: .2;
-    font-size: 70px;
-}
 
 p {
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     color: #fff;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
-.navbar {
-    background-color: #000;
-    padding: 0;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0;
+#navbar {
     overflow: hidden;
     background-color: #000;
 }
-  
-li {
+
+#navbar a {
     float: right;
-}
-  
-li a {
     display: block;
-    color: white;
+    color: #ffffff;
     text-align: center;
-    padding: 14px 40px;
+    padding: 14px 16px;
     text-decoration: none;
-    background-color:#000000;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-    text-transform: uppercase;
-    font-size: x-large;
-    font-weight: 800;
+    font-size: 17px;
+    text-transform:uppercase;
+    font-weight:800;
+    font-size:x-large;
+}
+
+#navbar a:hover {
+    background-color: rgb(20, 20, 20);
+}
+.content {
+    padding: 16px;
 }
 
 .sticky {
@@ -74,7 +57,7 @@ li a {
 }
 
 .unsticky {
-    margin-top: -75px;
+    margin-top: -70px;
 }
 
 .sticky + .content {
