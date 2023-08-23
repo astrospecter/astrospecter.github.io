@@ -1,7 +1,15 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     background-color: #000000;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+    height: 100%;
 }
 
 .content {
@@ -46,9 +54,6 @@ p {
 #navbar a:hover {
     background-color: rgb(20, 20, 20);
 }
-.content {
-    padding: 16px;
-}
 
 .sticky {
     position: fixed;
@@ -56,7 +61,57 @@ p {
     width: 100%
 }
 
+/* the scroll parallax things */
+#scroll-parallax-bg {
+    background: url(assets/background.png);
 
-.sticky + .content {
-    padding-top: 60px;
+    height: 80%;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#scroll-parallax-bg h1 {
+    margin: auto;
+    position: relative;
+    top: 300px;
+    width: 250px;
+    height: 60px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+@media only screen and (max-device-width: 1366px) {
+    .scroll-parallax-bg {
+        background-attachment: scroll;
+    }
+}
+
+.text {
+    background-color: black;
+    padding: 50px;
+    color: white;
+    text-align: center;
+}
+
+.text p {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* box container things */
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+.img-container-2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
 }
